@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "description": "Rename a file",
   "main": "index.js",
+  "repository": {
+    "url": "https://github.com/jonathangomz/rn.git",
+    "type": "git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,5 +18,6 @@
   },
   "bin": {
     "my-cli-app": "./index.js"
-  }
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
