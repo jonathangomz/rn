@@ -1,23 +1,23 @@
 {
-  "name": "rn",
+  "name": "@jonathangomz/rn",
   "version": "0.1.0",
   "description": "Rename a file",
   "main": "index.js",
   "repository": {
-    "url": "https://github.com/jonathangomz/rn.git",
-    "type": "git"
+    "type": "git",
+    "url": "git+https://github.com/jonathangomz/rn.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Jonathan Gomez Perez",
+  "author": "jonathangomz",
   "license": "ISC",
   "dependencies": {
     "commander": "^6.0.0"
   },
   "bin": {
-    "my-cli-app": "./index.js"
+    "rn": "./index.js"
   },
   "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
