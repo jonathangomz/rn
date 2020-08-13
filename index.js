@@ -10,8 +10,8 @@ program
   .description('rename a file')
   .action((file, new_name) => {
     console.log(`Renamed ${file} => ${new_name}`);
-    fs.rename(file, new_name, function(err) {
-      if ( err ) console.log('ERROR: ' + err);
-  });
+    fs.rename(file, new_name, function (err) {
+      if (err) console.log('ERROR: ' + err);
+    });
   })
   .parse(process.argv);

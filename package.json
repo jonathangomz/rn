@@ -1,6 +1,6 @@
 {
   "name": "@jonathangomz/rn",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Rename a file",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,6 @@
     "commander": "^6.0.0"
   },
   "bin": {
-    "rn": "./index.js"
+    "rn": "index.js"
   }
 }
