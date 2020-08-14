@@ -1,6 +1,6 @@
 {
   "name": "@jonathangomz/rn",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Rename a file",
   "main": "index.js",
   "scripts": {
