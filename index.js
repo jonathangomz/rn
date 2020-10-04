@@ -12,7 +12,7 @@ program
   .command('rn')
   .description('rename a file')
   .arguments('<file> <new_name>')
-  .version('0.0.2')
+  .version('0.1.3')
   .action((file, new_name) => {
     fs.rename(file, new_name, function (err) {
       if (err) console.log('ERROR: ' + err);
